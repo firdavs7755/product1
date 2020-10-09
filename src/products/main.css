@@ -1,0 +1,49 @@
+body {
+    background: rgba(252, 252, 252, 0.01);
+    text-align: center;
+}
+.back{
+    opacity: 90%;
+    background-repeat: no-repeat;
+    width: 1100px;
+    float: outside;
+}
+.card {
+    border-radius: 2px;
+    margin: 10px;
+    display: inline-block;
+    align: center;
+
+    transition: all .20s linear;
+    box-shadow: 0px 1px 2px 1px rgba(1, 219, 210, 0.84);
+}
+.card:hover{
+    box-shadow: -1px 10px 29px 5px rgba(70, 138, 168, 0.8);
+}
+.onHover:hover{
+    transition-duration: 0.6s;
+    transform: translateY(-3px);
+    background-color: rgba(197, 197, 197, 0.76);
+    border-radius: 10%;
+}
+.bg{
+    background-color: rgba(126, 204, 206, 0.54);
+}
+.zIndex{
+    z-index: 100;
+}
+.collap{
+    display: block;
+    box-sizing: border-box;
+}
+.collap:hover{
+    box-shadow: -1px 10px 29px 5px rgba(70, 138, 168, 0.8);
+    transition-duration: 1s;
+    transform: scale(1.04); /* Увеличиваем масштаб */
+
+}
+h5{
+    display: block;
+    box-sizing: border-box;
+}
+
